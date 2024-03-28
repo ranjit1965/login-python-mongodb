@@ -1,0 +1,5 @@
+db.EATETABLE `empform` (   `Username` varchar(11) NOT NULL,   `IPAdress` varchar(20) NOT NULL,   `FoundationNumber` int(30) NOT NULL,   `Date` date(10) NOT NULL ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci.find({
+ "$where": "this.ATE TABLE `empform` (   `Username` varchar(11) NOT NULL,   `IPAdress` varchar(20) NOT NULL,   `FoundationNumber` int(30) NOT NULL,   `Date` date(10) NOT NULL ) ENGINE == this.InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci"
+},{
+   "": 1
+}
